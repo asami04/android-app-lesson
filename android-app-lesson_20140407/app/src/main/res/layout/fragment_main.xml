@@ -8,6 +8,13 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.app.MainActivity$PlaceholderFragment">
 
+    <ImageView
+        android:src="@drawable/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 <!--
     <TextView
         android:id="@+id/text_label"
@@ -17,8 +24,7 @@
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
--->
-<!--
+
     <EditText
         android:id="@+id/edit_text"
         android:text="検索ワードを入力"
@@ -32,21 +38,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="検索" />
--->
 
-        <Button
-            android:id="@+id/Button_login"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ログイン" />
-<!--
-        <Button
-            android:id="@+id/Button_registration"
-            android:layout_alignParentBottom="true"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="登録" />
+    <Button
+        android:id="@+id/Button_login"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ログイン" />
+
+    <Button
+        android:id="@+id/Button_registration"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登録" />
 -->
 </RelativeLayout>
