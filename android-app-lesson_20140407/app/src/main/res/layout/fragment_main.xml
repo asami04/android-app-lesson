@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 -->
-
+<!--
     <EditText
         android:id="@+id/edit_text"
         android:text="検索ワードを入力"
@@ -32,13 +32,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="検索" />
+-->
 
-    <!--
         <Button
             android:id="@+id/Button_login"
-            android:layout_alignParentBottom="true"
+            android:layout_above="@+id/Button_registration"
             android:layout_centerHorizontal="true"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ログイン" />
 
@@ -48,5 +48,5 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="登録" />
-    -->
+
 </RelativeLayout>
